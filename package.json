@@ -3,7 +3,7 @@
   "scripts": {
     "format:check": "npx nx format:check --all",
     "format:write": "npx nx format:write --all",
-    "build": "nx run-many --target=build",
+    "build": "node api.js && nx run-many --target=build",
     "test:ci": "nx run-many --target=test --all --parallel --coverage --coverageReporters=lcov && node ./scripts/coverageMerger.js && lcov-viewer lcov -o ./coverage/workspace-report ./coverage/lcov.info",
     "setup:dev": "ts-node ./scripts/setup.ts",
     "clean": "nx clear-cache",
