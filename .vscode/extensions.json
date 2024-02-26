@@ -1,20 +1,7 @@
 {
-  "recommendations": [
-    "codezombiech.gitignore",
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "mikestead.dotenv",
-    "ms-azuretools.vscode-docker",
-    "prisma.prisma",
-    "graphql.vscode-graphql",
-    "redhat.vscode-yaml",
-    "streetsidesoftware.code-spell-checker",
-    "hashicorp.terraform",
-    "sleistner.vscode-fileutils",
-    "eamodio.gitlens",
-    "nrwl.angular-console",
-    "firsttris.vscode-jest-runner",
-    "znck.grammarly",
-    "PKief.material-icon-theme"
-  ]
+    "recommendations": [
+        "myml.vscode-markdown-plantuml-preview",
+        "esbenp.prettier-vscode",
+        "jebbs.plantuml"
+    ]
 }
